@@ -19,8 +19,6 @@ cols = np.array([ 19.60213683,  19.43949687,  19.25496336,  18.51739021,
 distance = 1.4
 '''
 
-import numpy as np
-
 def adj(x_coords, y_coords, distance_limit):
     num = len(x_coords) #determine the number of particles
     assert len(y_coords) == num
